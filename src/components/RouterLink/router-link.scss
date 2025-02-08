@@ -1,0 +1,29 @@
+.router-link {
+  background: var(--text-color);
+  margin: 0.5rem 0;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--background-color);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  overflow: hidden;
+  &:hover {
+    background: var(--tertiary-color);
+    .router-link-icon {
+      background: var(--tertiary-shade-1) !important;
+    }
+  }
+  .router-link-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      margin: 0 1rem;
+    }
+    .router-link-icon {
+      background: var(--secondary-shade-1);
+      padding: 0.5rem;
+    }
+  }
+}

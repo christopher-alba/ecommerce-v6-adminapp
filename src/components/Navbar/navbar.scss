@@ -1,0 +1,27 @@
+#navbar-main {
+  background: var(--primary-shade-1);
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 0;
+}
+
+.navbar-subheading {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 6rem;
+  margin-top: 0;
+}

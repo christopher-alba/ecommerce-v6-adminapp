@@ -1,0 +1,38 @@
+#app-wrapper {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Inter', serif;
+}
+
+#nav-wrapper {
+  width: 300px;
+}
+
+#content-wrapper {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+/* Default (light mode) */
+.light-mode {
+  --background-color: #ffffff;
+  --text-color: #212529;
+  --primary-shade-1: #e6e6e6;
+  --secondary-shade-1: #131518;
+  --tertiary-color: #DC88A7;
+  --tertiary-shade-1: #e7769f;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Dark mode */
+.dark-mode {
+  --background-color: #212529;
+  --text-color: #ffffff;
+  --primary-shade-1: #131518;
+  --secondary-shade-1: #e6e6e6;
+  --tertiary-color: #DC88A7;
+  --tertiary-shade-1: #e7769f;
+  background: var(--background-color);
+  color: var(--text-color);
+}
