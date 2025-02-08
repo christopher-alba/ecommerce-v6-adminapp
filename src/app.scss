@@ -21,6 +21,9 @@
   --secondary-shade-1: #131518;
   --tertiary-color: #DC88A7;
   --tertiary-shade-1: #e7769f;
+
+  --border-radius-sm: 5px;
+  
   background: var(--background-color);
   color: var(--text-color);
 }
@@ -33,6 +36,9 @@
   --secondary-shade-1: #e6e6e6;
   --tertiary-color: #DC88A7;
   --tertiary-shade-1: #e7769f;
+
+  --border-radius-sm: 5px;
+
   background: var(--background-color);
   color: var(--text-color);
 }
